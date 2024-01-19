@@ -1,0 +1,31 @@
+.myChats {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 217px;
+  height: 60px;
+
+  background: #f5f5f5;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.profile-pic-2 img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fa9236;
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
+  border-radius: 100px;
+}
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

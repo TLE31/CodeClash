@@ -1,0 +1,54 @@
+.flagBox {
+  display: flex;
+  flex-direction: column;
+  width: 585px;
+  align-items: flex-start;
+  padding: 30px 20px;
+  gap: 30px;
+  border: 1px solid rgb(62, 62, 62);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.flagBox-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+}
+
+.flagBox-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.flagBox-author img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.flag-card-link {
+  display: flex;
+  gap: 5px;
+}
+
+.flag-card-link p {
+  color: #41b0e1;
+}
+
+.flagBox-input {
+  display: flex;
+  gap: 6px;
+}
+
+.flagBox-hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

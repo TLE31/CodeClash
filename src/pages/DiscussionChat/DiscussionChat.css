@@ -1,0 +1,116 @@
+.back-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 0px;
+  gap: 10px;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  left: 233px;
+  top: 150px;
+  background: #3b3b3b;
+  border: 1px solid #474747;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.discussion-chat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  align-items: center;
+  gap: 50px;
+}
+
+.discussion-chat-question {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+.discussion-chat-question-content {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 560px;
+}
+
+.discussion-chat-question-code {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  width: 560px;
+  background: rgba(99, 99, 99, 0.4);
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.discussion-chat-question-code code {
+  max-width: 560px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+
+.discussion-chat-question-code code::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+.discussion-chat-question-code code::-webkit-scrollbar-thumb {
+  background-color: #070707;
+}
+
+.discussion-chat-question-code code::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.discussion-chat-question-line {
+  width: 560px;
+  height: 0px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.discussion-chat-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.discussion-answer-self {
+  padding: 10px;
+  background-color: #22091b;
+  color: #fff;
+  border: 2px solid #404040;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.discussion-answer-self h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.discussion-answer-self div {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  gap: 10px;
+}

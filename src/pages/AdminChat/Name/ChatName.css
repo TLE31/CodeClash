@@ -1,0 +1,29 @@
+.myChats {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  /* color: #e6e6e6; */
+
+  width: 217px;
+  height: 60px;
+
+  background: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}

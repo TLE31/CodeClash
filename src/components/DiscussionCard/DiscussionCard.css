@@ -1,0 +1,174 @@
+.discussion-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 20px;
+  gap: 14px;
+  width: 590px;
+  background: #262525;
+  border: 1px solid #4b4b4b;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
+
+.discussion-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  width: 550px;
+}
+
+.discussion-card-ques {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 357px;
+}
+
+.discussion-card-text {
+  font-size: 14px;
+  color: rgba(230, 230, 230, 0.9);
+}
+
+.discussion-card-question {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.discussion-card-ques div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.discussion-card-line {
+  width: 550px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.discussion-card-ques div h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.discussion-card-ques img {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 0.5px solid #e85231;
+}
+
+.discussion-card-datas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 550px;
+  align-items: center;
+  gap: 10px;
+}
+
+.discussion-card-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+}
+
+.discussion-card-upvote {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+  width: 69px;
+  background: #ffffe0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #22091b;
+  transition: all 0.2s ease-in;
+}
+
+.discussion-card-upvote:hover {
+  background: #f5f573;
+}
+
+.discussion-card-downvote {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+  width: 69px;
+  background: #efefed;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #22091b;
+  transition: all 0.2s ease-in;
+}
+
+.discussion-card-downvote:hover {
+  background: #c7c7c6;
+}
+
+.discussion-card-comment {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+}
+
+.discussion-card-comment-link {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.discussion-card-comment img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  margin-right: -10px;
+  border: 0.5px solid #e85231;
+}
+
+.discussion-icon {
+  height: 18px;
+  width: 18px;
+  color: #22091b;
+}
+
+BiUpvote {
+  height: 50px;
+}
+
+.discussion-card-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.discussion-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  background: #383838;
+  border: 1.5px solid #494949;
+  border-radius: 4px;
+}
+
+.discussion-dropdown div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.discussion-dropdown div:hover {
+  background-color: rgb(57, 57, 57);
+}

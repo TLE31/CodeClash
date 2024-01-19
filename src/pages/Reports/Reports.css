@@ -1,0 +1,12 @@
+.report h1 {
+  margin: 30px auto;
+  font-size: 32px;
+}
+
+.reports-content {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 1250px;
+}

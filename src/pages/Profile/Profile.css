@@ -1,0 +1,159 @@
+.platform {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.platform-link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  font-size: 18px;
+  color: #22091b;
+  font-weight: 500;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  max-width: 600px;
+  margin: 50px auto;
+  position: relative;
+  /* border: 2px solid white; */
+}
+
+.profile-admin {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-pic img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #e85231;
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+  border-radius: 100px;
+}
+
+.profile-content-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.profile-edit {
+  position: absolute;
+  /* border: 2px solid black; */
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgba(18, 18, 18, 0.7);
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.profile-content-details h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.profile-content-details h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.profile-content-friend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #e85231;
+}
+
+.profile-techstack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+}
+
+.profile-techstack-detail {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  row-gap: 10px;
+  column-gap: 6px;
+}
+
+.profile-techstack-detail {
+  display: flex;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.techstack {
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3px 6px;
+  gap: 10px;
+  background: rgba(250, 146, 54, 0.2);
+  border-radius: 25px;
+}
+
+.friends-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendrequest-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendrequest-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-center {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

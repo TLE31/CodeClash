@@ -1,0 +1,62 @@
+/* .question {
+  width: 650px; 
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+} */
+
+.friends-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 6px;
+  gap: 10px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.question-txt h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #22091b;
+  /* border: 2px solid black; */
+}
+
+.question-tag {
+  /* display: flex;
+  flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.friends-pic img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fa9236;
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.05));
+  border-radius: 100px;
+  border: 2px solid white;
+}
+.question-tag p {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  background: rgba(255, 122, 0, 0.1);
+  border-radius: 30px;
+}
+
+.question-level {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 4px 12px;
+  background: rgba(255, 122, 0, 0.2);
+  border-radius: 30px;
+}
+
+.question-acceptance {
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,86 @@
+.chat-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+
+  position: absolute;
+  /* width: 823px; */
+  /* width: 1000px; */
+  width: 100%;
+  height: 466px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* left: 309px;
+  top: 217px; */
+  /* border: 2px solid white; */
+}
+.chatName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 217px;
+
+  min-height: 466px;
+  overflow-y: scroll;
+
+  background: #1e1e1e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 14px;
+
+  /* width: 593px; */
+  width: 700px;
+  height: 466px;
+}
+.showChat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 30px;
+
+  /* width: 593px; */
+  width: 700px;
+  height: 398px;
+  overflow-y: scroll;
+  /* overflow: hidden; */
+  background: #1e1e1e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.messageBox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px 7px 20px;
+  gap: 10px;
+
+  width: 593px;
+  height: 54px;
+
+  background: #1e1e1e;
+  border: 1px solid #3d3d3d;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+}
+
+.btn {
+  cursor: pointer;
+}

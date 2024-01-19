@@ -1,0 +1,75 @@
+.socialcard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 220px;
+  border-color: white;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.socialcard-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 20px;
+  width: 220px;
+  height: 134px;
+  background: #2c2c2c;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.socialcard-image img {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #e85231;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+}
+
+.socialcard-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+  isolation: isolate;
+  width: 220px;
+  background: #1c1c1c;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+
+.socialcard-user {
+  position: absolute;
+  max-width: 190px;
+  height: 34px;
+  padding: 2px 8px;
+  font-weight: 500;
+  top: -21px;
+  background: #414040;
+  border: 1.5px solid #22091b;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialcard-user-rating {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.socialcard-user-rating img {
+  height: 28px;
+}

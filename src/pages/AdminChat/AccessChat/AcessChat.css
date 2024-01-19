@@ -1,0 +1,32 @@
+/* .left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 186px;
+  height: 40px;
+  left: 22px;
+  top: 194px;
+
+  background: #f2f2f7;
+  border-radius: 40px;
+} */
+/* .right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 218px;
+  height: 40px;
+  left: 225px;
+  top: 310px;
+
+  background: #007aff;
+  border-radius: 40px;
+} */

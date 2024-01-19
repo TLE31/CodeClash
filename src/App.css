@@ -1,0 +1,8 @@
+@font-face {
+  font-family: consolas;
+  src: url(./font/CONSOLA.TTF);
+}
+
+.App {
+  font-family: consolas;
+}

@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid white; */
+  background: #1c1c22;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  margin: 24px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  color: #e85231;
+  font-size: 28px;
+  font-weight: 700;
+}
+.name {
+  color: white;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 20px;
+  background: rgba(3, 137, 255, 0.1);
+  border-radius: 25px;
+  box-shadow: #e85231;
+}
+
+.menu-link {
+  color: #e85231;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.menu-link:hover {
+  background: #d43e1d;
+  border-radius: 20px;
+  color: white;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 250px;
+}
+
+.user p {
+  color: #22091b;
+  font-weight: 500;
+}
+
+.user p a {
+  color: white;
+}
+
+.user-img {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #e85231;
+}

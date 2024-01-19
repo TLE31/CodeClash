@@ -1,0 +1,31 @@
+.flag-flex {
+  display: flex;
+  flex-direction: column;
+}
+.capture-the-flag {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.create-ctfs {
+  position: fixed;
+  padding-left: 50vw;
+}
+
+.home {
+  width: 585px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.home h1,
+.home h3 {
+  margin: 50px 0 20px 0;
+}
+
+.leader {
+  position: fixed;
+  right: 30px;
+  top: 120px;
+}
