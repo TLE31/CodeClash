@@ -217,10 +217,10 @@ const DiscussionChat = () => {
                 <BiComment className="discussion-icon" />
                 <p>4</p>
               </Link>
-              <img src={utkarsh} alt="" />
-              <img src={utkarsh} alt="" />
-              <img src={utkarsh} alt="" />
-              <img src={utkarsh} alt="" />
+              <img src="http://res.cloudinary.com/df4t1zu7e/image/upload/v1678403577/i9refylv9btn7xrb69gd.jpg" alt="" />
+              <img src="http://res.cloudinary.com/df4t1zu7e/image/upload/v1678403577/i9refylv9btn7xrb69gd.jpg" alt="" />
+              <img src="http://res.cloudinary.com/df4t1zu7e/image/upload/v1678403577/i9refylv9btn7xrb69gd.jpg" alt="" />
+              <img src="http://res.cloudinary.com/df4t1zu7e/image/upload/v1678403577/i9refylv9btn7xrb69gd.jpg" alt="" />
             </div>
           </div>
           {/* {user.data.user.role === "admin" ? (
