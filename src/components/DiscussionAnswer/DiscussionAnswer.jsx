@@ -109,12 +109,12 @@ const DiscussionAnswer = ({ item }) => {
 
       <div className="discussion-answer-details">
         <div>
-          <img src={utkarsh} alt="utkarsh" />
+          <img src={item.sender?item.sender.photo:""} alt="utkarsh" />
           {/* <p>Utkarsh Raj</p> */}
           <p>{item.sender ? item.sender.name : ""}</p>
         </div>
         <div className="discussion-answer-details-date">
-          <p>posted on May 11, 2020 at 21:57</p>
+          <p>posted on Jan 11, 2024 at 21:57</p>
           {JSON.parse(localStorage.getItem("userInfo")).data.user.role ===
           "admin" ? (
             <AiTwotoneDelete onClick={handleClick} />
