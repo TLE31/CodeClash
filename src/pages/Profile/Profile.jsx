@@ -8,13 +8,13 @@ import { ChatState } from "../../context/ChatProvider";
 import { FaUserFriends } from "react-icons/fa";
 import { AiTwotoneEdit } from "react-icons/ai";
 import { Helmet } from "react-helmet";
-
 import "./Profile.css";
 
 const Me = () => {
   const { slug } = useParams();
   const { user, isUserLoggedIn, openProfile } = ChatState();
   // const { isUserLoggedIn } = GlobalProvider();
+  //const {isUserLogin}=GlobalProvider();
   const [viewUser, setViewUser] = useState();
   const [isTrue, setIsTrue] = useState(false);
   const [request, setRequest] = useState(false);
