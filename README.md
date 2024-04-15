@@ -1,4 +1,4 @@
-# FlagRush
+# Codeclash
 ### Social Media Community for Hackers
 
 Welcome to our hacker community, a social platform designed for hackers worldwide. Here, you can test your skills, practice techniques, and connect with like-minded individuals. Join us for exploration, collaboration, and growth.
