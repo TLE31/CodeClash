@@ -43,7 +43,8 @@ git clone https://github.com/<YOUR_USERNAME>/FlagRush.git
 ```
 
 ```
-cd FlagRush
+cd codeclash
+
 ```
 
 ```
