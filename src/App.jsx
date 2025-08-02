@@ -13,7 +13,7 @@ import Error from "./pages/Error/Error";
 import FutureScope from "./pages/Error/FutureScope";
 import Reports from "./pages/Reports/Reports";
 import Home from "./pages/Home/Home";
-
+//Have some chnages 
 function App() {
   return (
     <div className="App">
@@ -39,3 +39,4 @@ function App() {
 }
 
 export default App;
+
